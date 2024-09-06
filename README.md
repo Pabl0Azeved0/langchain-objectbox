@@ -61,9 +61,23 @@ If you have any trouble on getting your OPENAI api key, [this can help you](http
 
 ### Usage
 
-1. **Embedding Documents:**
-- Click on the "Documents Embedding" button to load and embed the PDF documents. The application will process the documents and prepare them for querying.
-2. **Ask Questions:**
-- Enter your question in the text input field. The application will use the embedded documents to provide an answer.
-3. **View Document Similarity:**
-- Expand the "Document Similarity Search" section to see the context of documents related to your query.
+1. **Run the application:**
+- First make sure you are inside your venv where every package should be installed and run your project, here's a snippet to make it easier:
+```
+make run
+```
+- Then you should be seeing something like this: ![](https://i.imgur.com/z1Z4zpo.png)
+2. **Embedding Documents:**
+- Click on the "Documents Embedding" button to load and embed the PDF documents. The application will process the documents and prepare them for querying, after the process is over you should be seeing something like this: ![](https://i.imgur.com/6nox9Qu.png)
+3. **Ask Questions:**
+- Enter your question in the text input field. The application will use the embedded documents to provide an answer, after the process it will return the original question to you along with the answer, this should be the result: ![](https://i.imgur.com/NoBJSde.png)
+4. **View Document Similarity:**
+- Expand the "Document Similarity Search" section to see the context of documents related to your query. ![](https://i.imgur.com/4Sc7bah.png)
+5. **The project:**
+- After that you should see your project file like this:
+    - ![](https://i.imgur.com/oDMUAO5.png)
+- But don't worry, it's just temporary files, the `objectbox` folder is actually the "database", that's why I created 3 makefile commands to clean this up:
+    - `make clean`: Cleans up both pycache and objectbox folders
+    - `make clean-cache`: Only cleans up the pycache
+    - `make clean-database`: Only cleans up the objectbox
+- After cleaning up your project should be fine, but keep in mind once you clean the objectbox you'll have to embed every document again by clicking on the button.
