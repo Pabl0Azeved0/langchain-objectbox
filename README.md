@@ -6,13 +6,14 @@ This project demonstrates how to use Langchain with ObjectBox to perform documen
 - [Installation](#installation)
 - [Setup](#setup)
 - [Usage](#usage)
-
+---
 
 ### Features
 
 - **Document Embedding:** Upload PDF files and convert them into vectors for efficient searching.
 - **Question Answering:** Ask questions based on the embedded documents.
 - **Retrieval-Augmented Generation (RAG):** Combines document retrieval with language model responses.
+---
 
 ### Installation
 
@@ -47,7 +48,7 @@ GROQ_API_KEY=your_groq_api_key
 ```
 - Replace `your_openai_api_key` and `your_groq_api_key` with your actual API keys.
 If you have any trouble on getting your OPENAI api key, [this can help you](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key) and if you have trouble getting your GROQ api key, [get help here](https://console.groq.com/docs/quickstart).
-
+---
 
 ### Setup
 
