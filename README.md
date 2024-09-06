@@ -20,8 +20,8 @@ Follow these steps to set up the project:
 
 1. **Clone the Repository:**
 ```
-git clone here
-cd sofya-langchain
+git clone git@github.com:Pabl0Azeved0/langchain-objectbox.git
+cd langchain-objectbox
 ```
 
 2. **Set Up a Virtual Environment:**
