@@ -27,7 +27,7 @@ cd langchain-objectbox
 
 2. **Set Up a Virtual Environment:**
 ```
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
@@ -57,7 +57,7 @@ If you have any trouble on getting your OPENAI api key, [this can help you](http
 
 2. **Run the application:**
 - Start the streamlit application using the Makefile by running the command `make run` on your terminal. This will open a web interface where you can interact with the application, if one is not opened try reading the terminal or simply typing in your favorite browser the link `http://localhost:8501/`
-
+---
 
 ### Usage
 
